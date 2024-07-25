@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route element={<ProtectedRoutes />} /> 
+        <Route path='/*' element={<ProtectedRoutes />} /> 
         <Route path='/login' element={<Login />} />
       </Routes>
     </Router>
