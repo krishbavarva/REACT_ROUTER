@@ -17,11 +17,7 @@ const ProductsList = () => {
             <Link to={`/products/${product.id}`}>{product.name}</Link>
           </li>
         ))}
-        {products.map(productt => (
-          <li key={productt.name}>
-            <Link to={`/products/${productt.name}`}>{productt.id}</Link>
-          </li>
-        ))}
+       
       </ul>
     </div>
   );

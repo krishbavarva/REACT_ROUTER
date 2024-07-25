@@ -20,7 +20,7 @@ const ProtectedRoutes = () => {
     <Routes>
         <Route path="/profile" element={<Profile />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/product-details" element={<ProductDetails />} />
+        <Route path="/products/:productId" element={<ProductDetails />} />
         <Route path="/products" element={<ProductsList />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
