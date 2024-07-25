@@ -4,6 +4,8 @@
     display: flex;
     justify-content: space-around;
     margin: 1% 0px;
+    color: white;
+
     align-items: center;
 
 }
@@ -11,15 +13,20 @@
     display: flex;
     justify-content: space-around;
     width: 60%;
+    color: white;
+
     height: 100%;
 }
 
 .navlink li{
     list-style-type: none;   
+    color: white;
+
 }
 .navlink a{
     text-decoration: none;
-    color: black;
+    color: white;
+
     font-size: 140%;
 }
 .navbar p{
@@ -29,4 +36,6 @@
     font-size: 180%;
     font-weight: 500;
     height: 100%;
+    color: rgb(255, 255, 255);
+
 }
