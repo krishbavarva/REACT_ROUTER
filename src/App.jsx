@@ -14,7 +14,6 @@ import Profile from './components/Profile'
 
 
 function App() {
-  const { isAuthentication } = useSelector(state => state.root)
   return (
     <>
 
