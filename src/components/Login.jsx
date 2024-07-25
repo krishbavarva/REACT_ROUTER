@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -10,7 +10,7 @@ const dispatch = useDispatch()
 
   return (
     <>
-      <button onClick={() => dispatch({type : "login"}) }>Login</button>
+      <NavLink to="/home" ><button onClick={() => dispatch({type : "login"}) }>Login</button></NavLink>
     </>
   );
 }
